@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="page-Category_TVs">
+    <header>
+        Vendas de TVs e acessórios online
+    </header>
+
+    <nav>
+        <ul id="nav">
+            <li><a href="products1.html">Home</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 id="categoria">Categorias de produtos</h1>
+        <h2>TVs</h2>
+        <Table>
+            <caption>TVs disponíveis</caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Imagem</th>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Preço</th>
+                    <th scope="col">Detalhes</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <picture>
+                            <source media="(max-width: 600px)"
+                                srcset="https://a-static.mlcdn.com.br/1500x1500/smart-tv-65-crystal-4k-samsung-65au7700-wi-fi-bluetooth-hdr-alexa-built-in-3-hdmi-1-usb/magazineluiza/193441500/8915683e0a4dae66a7ccd8e0d663078f.jpg 768px">
+                            </source>
+
+                                <img src="https://a-static.mlcdn.com.br/1500x1500/smart-tv-65-crystal-4k-samsung-65au7700-wi-fi-bluetooth-hdr-alexa-built-in-3-hdmi-1-usb/magazineluiza/193441500/8915683e0a4dae66a7ccd8e0d663078f.jpg"
+                                    alt="Smart TV 65 Crystal 4K Samsung 65AU7700 Wi-Fi Bluetooth HDR Alexa Built-in 3 HDMI 1 USB"
+                                    height="100px">
+                        </picture>
+                        
+                    </td>
+                    <td>
+                        <h3>Smart TV 65" Cystal 4k Samsung</h3>
+                    </td>
+                    <td>
+                        <h4>R$4.769,00 à vista</h4>
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.samsung.com/br/tvs/uhd-4k-tv/du8000-65-inch-crystal-uhd-4k-tizen-os-smart-tv-un65du8000gxzd/?msockid=3af49bb1c5056f7802218dd0c47c6e52">
+                            Detalhes </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <picture>
+                            <source media="(max-width: 600px)"
+                                srcset="https://tse3.mm.bing.net/th/id/OIP.0IT84wTsOHcCGaQVTzTeQAHaE6?rs=1&pid=ImgDetMain&o=7&rm=3 768px">
+                            </source>
+                            <img src="https://tse3.mm.bing.net/th/id/OIP.0IT84wTsOHcCGaQVTzTeQAHaE6?rs=1&pid=ImgDetMain&o=7&rm=3"
+                            alt="55 Inch LG UHD AI UT80 4K Smart TV" height="100px">
+                        </picture>
+                    </td>
+                    <td>
+                        <h3>55 Inch LG UHD AI UT80 4K Smart TV 2024</h3>
+                    </td>
+                
+                
+                    <td>
+                        <h4>R$ 2.414,79 à vista</h4>
+                    </td>
+                    <td>
+                        <a  target="_blank" href="https://www.lg.com/ph/tv-soundbars/uhd-4k-tvs/55ut8050psb/">Detalhes</a>
+                    </td>
+                </tr>
+        </Table>
+        <form id="tv-request-form">
+            <fieldset>
+                <legend>Solicitação de modelo de TV</legend>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Ex: Maria Silva" autocomplete="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Ex: maria@email.com" autocomplete="email"
+                    required />
+
+                <label for="modelo">Modelo de TV desejado:</label>
+                <input type="text" id="modelo" name="modelo" placeholder="Escolha ou digite o modelo desejado"
+                    required />
+                <datalist id="modelos-tv">
+                    <option value="1">Samsung</option>
+                    <option value="2">LG</option>
+                </datalist>
+
+                <button type="reset">Limpar formulário</button>
+                <button type="submit">Enviar solicitação</button>
+            </fieldset>
+        </form>
+
+        <h3 id="h3"> Perguntas mais frequentes</h3>
+        <details>
+            <summary>Como solicitar um modelo?</summary>
+            <ul>
+                <li>Para solicitar um modelo de TV que não está disponível, preencha o formulário acima.</li>
+            </ul>
+        </details>
+    </main>
+    <footer>
+        <small>Todos os direitos reservados</small>
+    </footer>
+
+</body>
+
+</html>

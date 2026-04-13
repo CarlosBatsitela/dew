@@ -1,0 +1,99 @@
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+p::first-letter{
+    text-transform: uppercase;
+}
+
+a:hover{
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    text-align: center;
+}
+
+#primary-list{
+    list-style: none;
+    text-align: center;
+}
+
+picture{
+    display: block;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+}
+
+.banner{
+    height: 250px;
+    width: 275px;    
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP._eCrQGnTN_kAtxV5QIA4-QHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");
+    margin: auto;
+        h1{
+            color: white;
+            padding-top: 60px;
+        }
+    
+}
+
+main{
+    padding: 20px;
+    margin: 20px;
+}
+
+.nav{
+    position: sticky;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+#h3{
+    text-align: left;
+}
+#categoria{
+    margin-left: 400px;
+    height: auto;
+    width: 500px;
+    background-color: rgb(78, 28, 160);
+    background-color: white;
+    background: linear-gradient(to right, rgb(78, 28, 160), white);
+    margin: auto;
+}
+
+table{
+    margin: auto;
+    border-collapse: separate;
+}
+
+ form{
+    margin: auto;
+    width: 50%;
+ }
+
+caption{
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+   
+#nav{
+        list-style: none;
+    }
+
+header{
+    position: sticky;
+    top: 0;
+}
